@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Transportation Survey</h2>
+      </div>
+      <form id="transportation_survey">
+        <div class="form-group">
+          <p>I use the following types of transportation to commute to/from school and/or work:</p>
+          <input type="checkbox" name="work-transportation" value="airplane"> Riding an airplane.<br>
+          <input type="checkbox" name="work-transportation" value="hellacopter"> Using San Francisco's famous Hella-copter.<br>
+          <input type="checkbox" name="work-transportation" value="submarine"> Carpooling with a submarine.<br>
+          <input type="checkbox" name="work-transportation" value="transporter"> Star Trek-style Transporter.<br>
+          <input type="checkbox" name="work-transportation" value="pontoon"> Navigating with a pontoon.<br>
+        </div>
+        <div class="form-group">
+          <p>I use the following types of transportation to get to other places:</p>
+          <input type="checkbox" name="other-responses" value="airplane"> Riding an airplane.<br>
+          <input type="checkbox" name="other-responses" value="hellacopter"> Using San Francisco's famous Hella-copter.<br>
+          <input type="checkbox" name="other-responses" value="submarine"> Carpooling with a submarine.<br>
+          <input type="checkbox" name="other-responses" value="transporter"> Star Trek-style Transporter.<br>
+          <input type="checkbox" name="other-responses" value="pontoon"> Navigating with a pontoon.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="work-responses">
+        <p><b>This is how you get to school/work:</b></p>
+      </span>
+      <br>
+      <span id="other-responses">
+        <p><b>This is how you get to other places:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
